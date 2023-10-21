@@ -1,0 +1,13 @@
+###
+GET http://localhost:3000/clothes
+{
+    "productID":"String",
+    "image": "String",
+    "image2": "String",
+    "category":"String",
+    "subCategory":"String",
+    "productName": "String",
+    "price": "Number",
+    "sizes": "String",
+    
+}
