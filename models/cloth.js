@@ -4,11 +4,11 @@ const clothSchema=new mongoose.Schema({
     productID:String,
     image: String,
     image2: String,
-    category:[String],
-    subCategory:[String],
+   // category:[String],
+   // subCategory:[String],
     productName: String,
     price: Number,
-    sizes: [String],
+   // sizes: [String],
     
 });
 module.exports=mongoose.model('clothes',clothSchema)
